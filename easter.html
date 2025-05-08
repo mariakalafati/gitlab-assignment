@@ -22,7 +22,7 @@
         let keys = [];
         document.addEventListener('keydown', (e) => {
             keys.push(e.key);
-            if (keys.join(',').includes('ArrowUp,ArrowUp,ArrowDown,ArrowDown')) {
+            if (keys.join(',').includes('ArrowUp,ArrowUp,t,t,ArrowUp,ArrowUp,ArrowLeft,ArrowRight,s,r,r')) {
                 document.body.style.background = 'linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet)';
             }
         });
