@@ -1,12 +1,12 @@
 body {
-    background-color: #f8e8ff;
+    background-color: #ebe45f;
     font-family: Arial, sans-serif;
     text-align: center;
 }
 .egg {
     display: inline-block;
-    width: 100px;
-    height: 130px;
+    width: 120px;
+    height: 120px;
     background: linear-gradient(45deg, #8B0000, #8B0000);
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     margin: 10px;
